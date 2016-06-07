@@ -24,6 +24,9 @@ test:
 
 all:
   .settings:
+    i18n: true
+    default_culture: es_ES
+
     # Form security secret (CSRF protection)
     csrf_secret:            f11632a534dc3ce6943786cd772d99372cc05c68
 
@@ -33,3 +36,9 @@ all:
 
     # Enable the database manager
     use_database:           true
+
+    jquery_autocomplete:  /sfFormExtraPlugin/js/jquery.autocompleter.js
+    enabled_modules: [default, sfGuardAuth]
+  .actions:
+    login_module: sfGuardAuth
+    login_action: signin

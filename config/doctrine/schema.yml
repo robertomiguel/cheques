@@ -1,0 +1,10 @@
+---
+cheque:
+  columns:
+    nro_cheque:       { type: string(50) }
+    nro_cuenta:       { type: string(50) }
+    receptor:         { type: string(50) }
+    importe:          { type: decimal(10), scale: 2, default: 0 }
+    fecha_pago:       { type: date }
+    fecha_conciliado: { type: date }
+    estado:           { type: string(50) }

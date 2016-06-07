@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * cheque filter form.
+ *
+ * @package    cheques
+ * @subpackage filter
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormFilterTemplate.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
+ */
+class chequeFormFilter extends BasechequeFormFilter
+{
+  public function configure()
+  {
+  }
+}
