@@ -154,7 +154,8 @@ static public function num2letras($num, $fem = false, $dec = true) {
             $t .= ' mil';
          }
       }elseif ($num == 1) {
-         $t .= ' ' . $matsub[$sub] . '&oacute;n';
+         $t .= ' ' . $matsub[$sub] . 'on';
+         //$t .= ' ' . $matsub[$sub] . '&oacute;n';
       }elseif ($num > 1){
          $t .= ' ' . $matsub[$sub] . 'ones';
       }   

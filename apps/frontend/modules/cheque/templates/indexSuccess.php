@@ -22,8 +22,14 @@
       <td><?php echo $cheque->getNroCheque() ?></td>
       <td><?php echo $cheque->getNroCuenta() ?></td>
       <td><?php echo Formatos::capital($cheque->getReceptor()) ?></td>
-      <td><?php echo Formatos::moneda($cheque->getImporte()) ?></td>
-      <td><?php echo Formatos::fecha($cheque->getFechaPago()) ?></td>
+      <td>
+          <?php echo Formatos::moneda($cheque->getImporte()) ?> <br>
+          <?php echo NumLet::num2letras($cheque->getImporte()) ?>
+      </td>
+      <td>
+          <?php echo Formatos::fecha($cheque->getFechaPago()) ?> <br>
+          <?php echo Formatos::fechapago($cheque->getFechaPago()) ?>
+      </td>
       <td><?php echo Formatos::fecha($cheque->getFechaConciliado()) ?></td>
       <td><?php echo $cheque->getEstado() ?></td>
       <td><a href="cheque/imprimir?id=<?php echo $cheque->getId() ?>" target="_blank">Imprimir</a></td>

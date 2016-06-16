@@ -2729,6 +2729,8 @@ class TCPDF {
 			case 'FR_COURONNE'         : {$pf = array( 1020.472, 1303.937); break;}
 			case 'FR_TELLIERE'         : {$pf = array(  963.780, 1247.244); break;}
 			case 'FR_POT'              : {$pf = array(  878.740, 1133.858); break;}
+			// personalizado
+			case 'CHEQUE'              : {$pf = array(  547.087, 858.895); break;}
 			// DEFAULT ISO A4
 			default: {$pf = array(  595.276,  841.890); break;}
 		}

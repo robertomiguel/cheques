@@ -90,27 +90,30 @@ class chequeActions extends sfActions
 
     $cheque = Doctrine_Core::getTable('cheque')->find(array($id));
 
-    $nro_cheque       = $cheque->getNroCheque();
-    $nro_cuenta       = $cheque->getNroCuenta();
-    $receptor         = $cheque->getReceptor();
     $importe          = $cheque->getImporte();
-    $fecha_pago       = $cheque->getFechaPago();
-    $fecha_conciliado = $cheque->getFechaConciliado();
-    $estado           = $cheque->getEstado();
+    $fecha_emision    = Formatos::fechaemision(date('Y-m-d'));
+    $fecha_pago       = Formatos::fechapago($cheque->getFechaPago());
+    $receptor         = $cheque->getReceptor();
+    $importe_letras   = NumLet::num2letras($importe);
 
-    $pdf->AddPage("P","A4",true,false);
-    $pdf->SetXY(50, 25);  $pdf->Cell(0,0, "Nro Cheque: $nro_cheque", '', 0, '', false);
-    $pdf->SetXY(50, 35);  $pdf->Cell(0,0, "Nro Cuenta: $nro_cuenta", '', 0, '', false);
-    $pdf->SetXY(50, 45);  $pdf->Cell(0,0, "Receptor: $receptor", '', 0, '', false);
-    $pdf->SetXY(50, 55);  $pdf->Cell(0,0, "Importe: $importe", '', 0, '', false);
-    $pdf->SetXY(50, 65);  $pdf->Cell(0,0, "Fecha Pago: $fecha_pago", '', 0, '', false);
-    $pdf->SetXY(50, 75);  $pdf->Cell(0,0, "Fecha Conciliado: $fecha_conciliado", '', 0, '', false);
-    $pdf->SetXY(50, 85);  $pdf->Cell(0,0, "Estado: $estado", '', 0, '', false);
+    // Corte en dos con separado en espacio
+    $importe_letras_1 = substr($importe_letras,0,35);
+    $ultimo_espacio   = strripos($importe_letras_1,' ');
+    $importe_letras_1 = substr($importe_letras_1,0, $ultimo_espacio);
+    $importe_letras_2 = substr($importe_letras,$ultimo_espacio);
+
+    $pdf->AddPage("P","CHEQUE",true,false);
+
+    $pdf->SetXY(145, 8);  $pdf->Cell(0,0, Formatos::moneda($importe), '', 0, '', false);
+    $pdf->SetXY(63, 16);  $pdf->Cell(0,0, $fecha_emision, '', 0, '', false);
+    $pdf->SetXY(55, 23);  $pdf->Cell(0,0, $fecha_pago, '', 0, '', false);
+    $pdf->SetXY(64, 29);  $pdf->Cell(0,0, $receptor, '', 0, '', false);
+    $pdf->SetXY(80, 36);  $pdf->Cell(0,0, $importe_letras_1, '', 0, '', false);
+    $pdf->SetXY(50, 41);  $pdf->Cell(0,0, $importe_letras_2, '', 0, '', false);
 
     $pdf->Output("cheque_$id.pdf", 'I'); //I
     return;
     //    return sfView::NONE;
   }
-
 
 }
