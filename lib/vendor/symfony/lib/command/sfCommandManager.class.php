@@ -111,10 +111,12 @@ class sfCommandManager
 /*      $arguments = preg_replace('/(\'|")(.+?)\\1/e', "str_replace(' ', '=PLACEHOLDER=', '\\2')", $arguments);
       $arguments = preg_split('/\s+/', $arguments);
       $arguments = str_replace('=PLACEHOLDER=', ' ', $arguments);
- */
+*/
       $arguments = preg_replace_callback('/(\'|")(.+?)\\1/', function($matches) {
      return str_replace(' ', '=PLACEHOLDER=', $matches[2]);
    }, $arguments);
+       $arguments = preg_split('/\s+/', $arguments);
+       $arguments = str_replace('=PLACEHOLDER=', ' ', $arguments);
     }
 
     $this->arguments            = $arguments;
