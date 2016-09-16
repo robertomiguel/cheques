@@ -23,6 +23,8 @@ abstract class BasechequeForm extends BaseFormDoctrine
       'fecha_pago'       => new sfWidgetFormDate(),
       'fecha_conciliado' => new sfWidgetFormDate(),
       'estado'           => new sfWidgetFormInputText(),
+      'created_at'       => new sfWidgetFormDateTime(),
+      'updated_at'       => new sfWidgetFormDateTime(),
     ));
 
     $this->setValidators(array(
@@ -34,6 +36,8 @@ abstract class BasechequeForm extends BaseFormDoctrine
       'fecha_pago'       => new sfValidatorDate(array('required' => false)),
       'fecha_conciliado' => new sfValidatorDate(array('required' => false)),
       'estado'           => new sfValidatorString(array('max_length' => 50, 'required' => false)),
+      'created_at'       => new sfValidatorDateTime(),
+      'updated_at'       => new sfValidatorDateTime(),
     ));
 
     $this->widgetSchema->setNameFormat('cheque[%s]');

@@ -1,0 +1,394 @@
+Jun 06 19:19:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:19:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:19:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:19:37 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:19:37 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:19:37 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:19:37 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:19:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:19:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:19:37 symfony [info] {sfWebDebugLogger} Configuration 150.01 ms (9)
+Jun 06 19:19:37 symfony [info] {sfWebDebugLogger} Factories 38.00 ms (1)
+Jun 06 19:19:37 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.00 ms (1)
+Jun 06 19:19:37 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 8.00 ms (1)
+Jun 06 19:19:37 symfony [info] {sfWebResponse} Send content (27826 o)
+Jun 06 19:20:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /inicio/imprimir with parameters array (  'module' => 'inicio',  'action' => 'imprimir',)
+Jun 06 19:20:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:20:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:20:06 symfony [info] {inicioActions} Call "inicioActions->executeImprimir()"
+Jun 06 19:20:06 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\exception\sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8441))
+Jun 06 19:20:06 symfony [err] {sfRenderException} The template "imprimirSuccess.php" does not exist or is unreadable in "".
+Jun 06 19:20:06 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\exception\sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8441))
+Jun 06 19:20:06 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8441))
+Jun 06 19:20:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jun 06 19:20:06 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8441))
+Jun 06 19:20:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:20:06 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (9)
+Jun 06 19:20:06 symfony [info] {sfWebDebugLogger} Factories 20.00 ms (1)
+Jun 06 19:20:06 symfony [info] {sfWebDebugLogger} Action "inicio/imprimir" 58.00 ms (1)
+Jun 06 19:20:06 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/imprimir" 16.00 ms (1)
+Jun 06 19:20:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:20:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:20:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:20:43 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:20:43 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:20:43 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:20:43 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:20:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:20:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:20:43 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (9)
+Jun 06 19:20:43 symfony [info] {sfWebDebugLogger} Factories 30.00 ms (1)
+Jun 06 19:20:43 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.00 ms (1)
+Jun 06 19:20:43 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 5.00 ms (1)
+Jun 06 19:20:43 symfony [info] {sfWebResponse} Send content (27822 o)
+Jun 06 19:20:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:20:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:20:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:20:47 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:20:47 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:20:47 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:20:47 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:20:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:20:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:20:47 symfony [info] {sfWebDebugLogger} Configuration 9.00 ms (9)
+Jun 06 19:20:47 symfony [info] {sfWebDebugLogger} Factories 36.00 ms (1)
+Jun 06 19:20:47 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.00 ms (1)
+Jun 06 19:20:47 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 9.00 ms (1)
+Jun 06 19:20:47 symfony [info] {sfWebResponse} Send content (27824 o)
+Jun 06 19:22:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:22:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:22:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:22:26 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:22:26 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:22:26 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:22:26 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:22:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:22:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:22:26 symfony [info] {sfWebDebugLogger} Configuration 7.00 ms (9)
+Jun 06 19:22:26 symfony [info] {sfWebDebugLogger} Factories 19.00 ms (1)
+Jun 06 19:22:26 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.00 ms (1)
+Jun 06 19:22:26 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 7.00 ms (1)
+Jun 06 19:22:26 symfony [info] {sfWebResponse} Send content (27850 o)
+Jun 06 19:22:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:22:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:22:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:22:47 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:22:47 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:22:47 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:22:47 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:22:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:22:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:22:47 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (9)
+Jun 06 19:22:47 symfony [info] {sfWebDebugLogger} Factories 21.00 ms (1)
+Jun 06 19:22:47 symfony [info] {sfWebDebugLogger} Action "inicio/index" 1.00 ms (1)
+Jun 06 19:22:47 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 6.00 ms (1)
+Jun 06 19:22:47 symfony [info] {sfWebResponse} Send content (27816 o)
+Jun 06 19:22:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:22:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:22:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:22:58 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:22:58 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:22:58 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:22:58 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:22:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:22:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:22:58 symfony [info] {sfWebDebugLogger} Configuration 4.00 ms (9)
+Jun 06 19:22:58 symfony [info] {sfWebDebugLogger} Factories 20.00 ms (1)
+Jun 06 19:22:58 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.00 ms (1)
+Jun 06 19:22:58 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 8.00 ms (1)
+Jun 06 19:22:58 symfony [info] {sfWebResponse} Send content (27848 o)
+Jun 06 19:23:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:23:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:23:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:23:03 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:23:03 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:23:03 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:23:03 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:23:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:23:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:23:03 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (9)
+Jun 06 19:23:03 symfony [info] {sfWebDebugLogger} Factories 24.00 ms (1)
+Jun 06 19:23:03 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.00 ms (1)
+Jun 06 19:23:03 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 6.00 ms (1)
+Jun 06 19:23:03 symfony [info] {sfWebResponse} Send content (27815 o)
+Jun 06 19:25:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:25:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:25:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:25:27 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:25:27 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:25:27 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:25:27 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:25:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:25:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:25:27 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (9)
+Jun 06 19:25:27 symfony [info] {sfWebDebugLogger} Factories 20.00 ms (1)
+Jun 06 19:25:27 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.00 ms (1)
+Jun 06 19:25:27 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 6.00 ms (1)
+Jun 06 19:25:27 symfony [info] {sfWebResponse} Send content (27854 o)
+Jun 06 19:25:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:25:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:25:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:25:34 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:25:34 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:25:34 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:25:34 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:25:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:25:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:25:34 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (9)
+Jun 06 19:25:34 symfony [info] {sfWebDebugLogger} Factories 20.00 ms (1)
+Jun 06 19:25:34 symfony [info] {sfWebDebugLogger} Action "inicio/index" 1.00 ms (1)
+Jun 06 19:25:34 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 7.00 ms (1)
+Jun 06 19:25:34 symfony [info] {sfWebResponse} Send content (27823 o)
+Jun 06 19:54:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:54:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:54:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:54:11 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:54:11 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:54:11 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:11 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:54:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:54:11 symfony [info] {sfWebResponse} Send content (26738 o)
+Jun 06 19:54:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /inicio/imprimir/id/1 with parameters array (  'module' => 'inicio',  'action' => 'imprimir',  'id' => '1',)
+Jun 06 19:54:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:54:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:54:17 symfony [info] {inicioActions} Call "inicioActions->executeImprimir()"
+Jun 06 19:54:17 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 36 (include(../config/pdfcerti.config.php): failed to open stream: No such file or directory)
+Jun 06 19:54:17 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 36 (include(): Failed opening '../config/pdfcerti.config.php' for inclusion (include_path='.;C:\php\pear'))
+Jun 06 19:54:17 symfony [notice] {sfWebDebugLogger}  Notice at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 37 (Undefined variable: pdf)
+Jun 06 19:54:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:54:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:54:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:54:19 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:54:19 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:54:19 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:19 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:54:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:54:19 symfony [info] {sfWebResponse} Send content (26706 o)
+Jun 06 19:54:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /inicio/imprimir/id/1 with parameters array (  'module' => 'inicio',  'action' => 'imprimir',  'id' => '1',)
+Jun 06 19:54:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:54:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:54:20 symfony [info] {inicioActions} Call "inicioActions->executeImprimir()"
+Jun 06 19:54:20 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 36 (include(../config/pdfcerti.config.php): failed to open stream: No such file or directory)
+Jun 06 19:54:20 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 36 (include(): Failed opening '../config/pdfcerti.config.php' for inclusion (include_path='.;C:\php\pear'))
+Jun 06 19:54:20 symfony [notice] {sfWebDebugLogger}  Notice at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 37 (Undefined variable: pdf)
+Jun 06 19:54:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:54:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:54:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:54:22 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:54:22 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:54:22 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:22 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:54:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:54:22 symfony [info] {sfWebResponse} Send content (26706 o)
+Jun 06 19:54:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /inicio/imprimir/id/1 with parameters array (  'module' => 'inicio',  'action' => 'imprimir',  'id' => '1',)
+Jun 06 19:54:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:54:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:54:31 symfony [info] {inicioActions} Call "inicioActions->executeImprimir()"
+Jun 06 19:54:31 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 36 (include(../config/pdfcerti.config.php): failed to open stream: No such file or directory)
+Jun 06 19:54:31 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 36 (include(): Failed opening '../config/pdfcerti.config.php' for inclusion (include_path='.;C:\php\pear'))
+Jun 06 19:54:31 symfony [notice] {sfWebDebugLogger}  Notice at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 37 (Undefined variable: pdf)
+Jun 06 19:54:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:54:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:54:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:54:32 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:54:32 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:54:32 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:32 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:54:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:54:32 symfony [info] {sfWebResponse} Send content (26706 o)
+Jun 06 19:54:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /inicio/imprimir/id/1 with parameters array (  'module' => 'inicio',  'action' => 'imprimir',  'id' => '1',)
+Jun 06 19:54:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:54:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:54:34 symfony [info] {inicioActions} Call "inicioActions->executeImprimir()"
+Jun 06 19:54:34 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 36 (include(../config/pdfcerti.config.php): failed to open stream: No such file or directory)
+Jun 06 19:54:34 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 36 (include(): Failed opening '../config/pdfcerti.config.php' for inclusion (include_path='.;C:\php\pear'))
+Jun 06 19:54:34 symfony [notice] {sfWebDebugLogger}  Notice at C:\webapp\cheques\apps\frontend\modules\inicio\actions\actions.class.php on line 37 (Undefined variable: pdf)
+Jun 06 19:54:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Jun 06 19:54:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 06 19:54:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 06 19:54:36 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Jun 06 19:54:36 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Jun 06 19:54:36 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:36 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Jun 06 19:54:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 06 19:54:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 06 19:54:36 symfony [info] {sfWebResponse} Send content (26706 o)
+Sep 12 16:33:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 12 16:33:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 12 16:33:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /cheque with parameters array (  'module' => 'cheque',  'action' => 'index',)
+Sep 12 16:33:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 12 16:33:01 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 12 16:33:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 12 16:33:01 symfony [info] {chequeActions} Call "chequeActions->executeIndex()"
+Sep 12 16:33:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 12 16:33:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nro_cheque AS c__nro_cheque, c.nro_cuenta AS c__nro_cuenta, c.receptor AS c__receptor, c.importe AS c__importe, c.fecha_pago AS c__fecha_pago, c.fecha_conciliado AS c__fecha_conciliado, c.estado AS c__estado FROM cheque c ORDER BY created_at - ()
+Sep 12 16:33:01 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_at' in 'order clause'. Failing Query: "SELECT c.id AS c__id, c.nro_cheque AS c__nro_cheque, c.nro_cuenta AS c__nro_cuenta, c.receptor AS c__receptor, c.importe AS c__importe, c.fecha_pago AS c__fecha_pago, c.fecha_conciliado AS c__fecha_conciliado, c.estado AS c__estado FROM cheque c ORDER BY created_at"
+Sep 12 16:33:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 12 16:33:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 12 16:33:01 symfony [info] {sfWebDebugLogger} Configuration 41.00 ms (9)
+Sep 12 16:33:01 symfony [info] {sfWebDebugLogger} Factories 68.00 ms (1)
+Sep 12 16:33:01 symfony [info] {sfWebDebugLogger} Action "cheque/index" 44.00 ms (1)
+Sep 12 16:33:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Sep 12 16:46:43 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 12 16:46:43 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 12 16:46:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /cheque with parameters array (  'module' => 'cheque',  'action' => 'index',)
+Sep 12 16:46:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 12 16:46:43 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 12 16:46:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 12 16:46:43 symfony [info] {chequeActions} Call "chequeActions->executeIndex()"
+Sep 12 16:46:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 12 16:46:43 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nro_cheque AS c__nro_cheque, c.nro_cuenta AS c__nro_cuenta, c.receptor AS c__receptor, c.importe AS c__importe, c.fecha_pago AS c__fecha_pago, c.fecha_conciliado AS c__fecha_conciliado, c.estado AS c__estado, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM cheque c ORDER BY c.created_at - ()
+Sep 12 16:46:43 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/cheque/templates/indexSuccess.php"
+Sep 12 16:46:43 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:46:43 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:46:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 12 16:46:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 12 16:46:43 symfony [info] {sfWebDebugLogger} Configuration 14.00 ms (10)
+Sep 12 16:46:43 symfony [info] {sfWebDebugLogger} Factories 29.00 ms (1)
+Sep 12 16:46:43 symfony [info] {sfWebDebugLogger} Action "cheque/index" 26.00 ms (1)
+Sep 12 16:46:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 7.00 ms (2)
+Sep 12 16:46:43 symfony [info] {sfWebDebugLogger} View "Success" for "cheque/index" 19.00 ms (1)
+Sep 12 16:46:43 symfony [info] {sfWebResponse} Send content (33689 o)
+Sep 12 16:46:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 12 16:46:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 12 16:46:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /cheque/new with parameters array (  'module' => 'cheque',  'action' => 'new',)
+Sep 12 16:46:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 12 16:46:53 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 12 16:46:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 12 16:46:53 symfony [info] {chequeActions} Call "chequeActions->executeNew()"
+Sep 12 16:46:53 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/cheque/templates/newSuccess.php"
+Sep 12 16:46:53 symfony [info] {sfPartialView} Render "C:\webapp\cheques\apps\frontend\modules/cheque/templates/_form.php"
+Sep 12 16:46:53 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:46:53 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:46:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 12 16:46:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 12 16:46:53 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (9)
+Sep 12 16:46:53 symfony [info] {sfWebDebugLogger} Factories 27.00 ms (1)
+Sep 12 16:46:53 symfony [info] {sfWebDebugLogger} Action "cheque/new" 21.00 ms (1)
+Sep 12 16:46:53 symfony [info] {sfWebDebugLogger} View "Success" for "cheque/new" 20.00 ms (1)
+Sep 12 16:46:53 symfony [info] {sfWebDebugLogger} Partial "cheque/_form" 11.00 ms (1)
+Sep 12 16:46:53 symfony [info] {sfWebResponse} Send content (51471 o)
+Sep 12 16:47:58 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 12 16:47:58 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 12 16:47:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /cheque/create with parameters array (  'module' => 'cheque',  'action' => 'create',)
+Sep 12 16:47:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 12 16:47:58 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 12 16:47:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 12 16:47:58 symfony [info] {chequeActions} Call "chequeActions->executeCreate()"
+Sep 12 16:47:58 symfony [info] {chequeActions} Change template to "CURRENT/new"
+Sep 12 16:47:58 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/cheque/templates/newSuccess.php"
+Sep 12 16:47:58 symfony [info] {sfPartialView} Render "C:\webapp\cheques\apps\frontend\modules/cheque/templates/_form.php"
+Sep 12 16:47:58 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:47:58 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:47:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 12 16:47:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 12 16:47:58 symfony [info] {sfWebDebugLogger} Configuration 9.00 ms (9)
+Sep 12 16:47:58 symfony [info] {sfWebDebugLogger} Factories 27.00 ms (1)
+Sep 12 16:47:58 symfony [info] {sfWebDebugLogger} Action "cheque/create" 16.00 ms (1)
+Sep 12 16:47:58 symfony [info] {sfWebDebugLogger} View "Success" for "cheque/create" 18.00 ms (1)
+Sep 12 16:47:58 symfony [info] {sfWebDebugLogger} Partial "cheque/_form" 9.00 ms (1)
+Sep 12 16:47:59 symfony [info] {sfWebResponse} Send content (53718 o)
+Sep 12 16:50:09 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 12 16:50:09 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 12 16:50:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /cheque/create with parameters array (  'module' => 'cheque',  'action' => 'create',)
+Sep 12 16:50:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 12 16:50:09 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 12 16:50:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 12 16:50:09 symfony [info] {chequeActions} Call "chequeActions->executeCreate()"
+Sep 12 16:50:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 12 16:50:09 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO cheque (importe, nro_cheque, nro_cuenta, receptor, fecha_pago, estado, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?) - (1200, 1, , popo, 2016-01-11, cargado, 2016-09-12 16:49:00, 2016-09-12 16:49:00)
+Sep 12 16:50:09 symfony [info] {sfFrontWebController} Redirect to "http://cheques.local/frontend_dev.php/cheque"
+Sep 12 16:50:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 12 16:50:09 symfony [info] {sfWebResponse} Send header "Location: http://cheques.local/frontend_dev.php/cheque"
+Sep 12 16:50:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 12 16:50:09 symfony [info] {sfWebDebugLogger} Configuration 4.00 ms (8)
+Sep 12 16:50:09 symfony [info] {sfWebDebugLogger} Factories 28.00 ms (1)
+Sep 12 16:50:09 symfony [info] {sfWebDebugLogger} Action "cheque/create" 39.00 ms (1)
+Sep 12 16:50:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.00 ms (2)
+Sep 12 16:50:09 symfony [info] {sfWebResponse} Send content (115 o)
+Sep 12 16:50:09 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 12 16:50:09 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 12 16:50:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /cheque with parameters array (  'module' => 'cheque',  'action' => 'index',)
+Sep 12 16:50:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 12 16:50:09 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 12 16:50:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 12 16:50:09 symfony [info] {chequeActions} Call "chequeActions->executeIndex()"
+Sep 12 16:50:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 12 16:50:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nro_cheque AS c__nro_cheque, c.nro_cuenta AS c__nro_cuenta, c.receptor AS c__receptor, c.importe AS c__importe, c.fecha_pago AS c__fecha_pago, c.fecha_conciliado AS c__fecha_conciliado, c.estado AS c__estado, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM cheque c ORDER BY c.created_at - ()
+Sep 12 16:50:09 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/cheque/templates/indexSuccess.php"
+Sep 12 16:50:09 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:50:09 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:50:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 12 16:50:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 12 16:50:09 symfony [info] {sfWebDebugLogger} Configuration 4.00 ms (9)
+Sep 12 16:50:09 symfony [info] {sfWebDebugLogger} Factories 26.00 ms (1)
+Sep 12 16:50:09 symfony [info] {sfWebDebugLogger} Action "cheque/index" 29.00 ms (1)
+Sep 12 16:50:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.00 ms (2)
+Sep 12 16:50:09 symfony [info] {sfWebDebugLogger} View "Success" for "cheque/index" 9.00 ms (1)
+Sep 12 16:50:09 symfony [info] {sfWebResponse} Send content (34208 o)
+Sep 12 16:50:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 12 16:50:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 12 16:50:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /cheque/imprimir with parameters array (  'module' => 'cheque',  'action' => 'imprimir',)
+Sep 12 16:50:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 12 16:50:16 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 12 16:50:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 12 16:50:16 symfony [info] {chequeActions} Call "chequeActions->executeImprimir()"
+Sep 12 16:50:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 12 16:50:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.nro_cheque AS c__nro_cheque, c.nro_cuenta AS c__nro_cuenta, c.receptor AS c__receptor, c.importe AS c__importe, c.fecha_pago AS c__fecha_pago, c.fecha_conciliado AS c__fecha_conciliado, c.estado AS c__estado, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM cheque c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 12 16:50:16 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\exception\sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8443))
+Sep 12 16:50:16 symfony [err] {sfRenderException} The template "imprimirSuccess.php" does not exist or is unreadable in "".
+Sep 12 16:50:16 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\exception\sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8443))
+Sep 12 16:50:17 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8443))
+Sep 12 16:50:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 12 16:50:17 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8443))
+Sep 12 16:50:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 12 16:50:17 symfony [info] {sfWebDebugLogger} Configuration 3.00 ms (9)
+Sep 12 16:50:17 symfony [info] {sfWebDebugLogger} Factories 27.00 ms (1)
+Sep 12 16:50:17 symfony [info] {sfWebDebugLogger} Action "cheque/imprimir" 95.01 ms (1)
+Sep 12 16:50:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.00 ms (2)
+Sep 12 16:50:17 symfony [info] {sfWebDebugLogger} View "Success" for "cheque/imprimir" 18.00 ms (1)
+Sep 12 16:56:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 12 16:56:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 12 16:56:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /cheque with parameters array (  'module' => 'cheque',  'action' => 'index',)
+Sep 12 16:56:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 12 16:56:02 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 12 16:56:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 12 16:56:02 symfony [info] {chequeActions} Call "chequeActions->executeIndex()"
+Sep 12 16:56:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 12 16:56:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nro_cheque AS c__nro_cheque, c.nro_cuenta AS c__nro_cuenta, c.receptor AS c__receptor, c.importe AS c__importe, c.fecha_pago AS c__fecha_pago, c.fecha_conciliado AS c__fecha_conciliado, c.estado AS c__estado, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM cheque c ORDER BY c.created_at - ()
+Sep 12 16:56:02 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\modules/cheque/templates/indexSuccess.php"
+Sep 12 16:56:02 symfony [info] {sfPHPView} Decorate content with "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:56:02 symfony [info] {sfPHPView} Render "C:\webapp\cheques\apps\frontend\templates/layout.php"
+Sep 12 16:56:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 12 16:56:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 12 16:56:02 symfony [info] {sfWebDebugLogger} Configuration 5.00 ms (9)
+Sep 12 16:56:02 symfony [info] {sfWebDebugLogger} Factories 27.00 ms (1)
+Sep 12 16:56:02 symfony [info] {sfWebDebugLogger} Action "cheque/index" 29.00 ms (1)
+Sep 12 16:56:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.00 ms (2)
+Sep 12 16:56:02 symfony [info] {sfWebDebugLogger} View "Success" for "cheque/index" 9.00 ms (1)
+Sep 12 16:56:02 symfony [info] {sfWebResponse} Send content (34209 o)
+Sep 12 17:22:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 12 17:22:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 12 17:22:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /cheque/imprimir with parameters array (  'module' => 'cheque',  'action' => 'imprimir',)
+Sep 12 17:22:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 12 17:22:18 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 12 17:22:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 12 17:22:18 symfony [info] {chequeActions} Call "chequeActions->executeImprimir()"
+Sep 12 17:22:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 12 17:22:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.nro_cheque AS c__nro_cheque, c.nro_cuenta AS c__nro_cuenta, c.receptor AS c__receptor, c.importe AS c__importe, c.fecha_pago AS c__fecha_pago, c.fecha_conciliado AS c__fecha_conciliado, c.estado AS c__estado, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM cheque c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 12 17:22:18 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\exception\sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8443))
+Sep 12 17:22:18 symfony [err] {sfRenderException} The template "imprimirSuccess.php" does not exist or is unreadable in "".
+Sep 12 17:22:18 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\exception\sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8443))
+Sep 12 17:22:18 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8443))
+Sep 12 17:22:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 12 17:22:18 symfony [warning] {sfWebDebugLogger}  Warning at C:\webapp\cheques\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\webapp\cheques\plugins\sfTCPDFPlugin\lib\tcpdf\tcpdf.php:8443))
+Sep 12 17:22:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 12 17:22:18 symfony [info] {sfWebDebugLogger} Configuration 5.00 ms (9)
+Sep 12 17:22:18 symfony [info] {sfWebDebugLogger} Factories 26.00 ms (1)
+Sep 12 17:22:18 symfony [info] {sfWebDebugLogger} Action "cheque/imprimir" 78.00 ms (1)
+Sep 12 17:22:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.00 ms (2)
+Sep 12 17:22:18 symfony [info] {sfWebDebugLogger} View "Success" for "cheque/imprimir" 16.00 ms (1)

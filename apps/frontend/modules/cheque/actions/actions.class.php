@@ -14,6 +14,7 @@ class chequeActions extends sfActions
   {
     $this->cheques = Doctrine_Core::getTable('cheque')
       ->createQuery('a')
+      ->orderBy('created_at')
       ->execute();
   }
 
@@ -73,7 +74,8 @@ class chequeActions extends sfActions
     {
       $cheque = $form->save();
 
-      $this->redirect('cheque/edit?id='.$cheque->getId());
+      //$this->redirect('cheque/edit?id='.$cheque->getId());
+      $this->redirect('cheque/index');
     }
   }
 

@@ -9,11 +9,11 @@
     <tfoot>
       <tr>
         <td colspan="2">
-          &nbsp;<a href="<?php echo url_for('cheque/index') ?>">Back to list</a>
+          &nbsp;<a href="<?php echo url_for('cheque/index') ?>">Listado</a>
           <?php if (!$form->getObject()->isNew()): ?>
-            &nbsp;<?php echo link_to('Delete', 'cheque/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
+          <?php //echo link_to('Delete', 'cheque/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
           <?php endif; ?>
-          <input type="submit" value="Save" />
+          <input type="submit" value="Grabar" />
         </td>
       </tr>
     </tfoot>
